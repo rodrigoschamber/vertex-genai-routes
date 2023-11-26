@@ -39,7 +39,7 @@ Run the command and authenticate using you google account:
 
 ### STEP 5: Generate your routes:
 
-To generate a route you need to navigate to the server route passing some parameters according to the example below:
+After starting the server use your browser to generate a touristic route. You only need to navigate to a specific url and then pass some parameters according to the example below:
 
 #### `http://localhost:{port}/tour/{lang}/{city}/{duration}`
 
