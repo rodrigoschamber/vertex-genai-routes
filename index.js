@@ -29,9 +29,11 @@ app.get("/tour/:lang/:city/:duration", async (req, res) => {
           <html>
             <head>
               <meta charset="utf-8">
-              <title>Here is your ${duration}-day tour to ${city}</title>
+              <title>AI HACKATON 2023</title>
             </head>
             <body>
+              <h1>AI HACKATON 2023</h1>
+              <h2> Here is your ${duration}-day tour to ${city.replace("+", " ").toUpperCase(0)}.</h2>
               <pre>${response.predictions[0].content}</pre>
             </body>
           </html>
