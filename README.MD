@@ -1,6 +1,14 @@
 # AI HACKATON 2023
 
-This tool was develop to be able to generate detailed travel routes and its interest points. This solution is based on NodeJS server to make requests to Google Vertex AI API. It was selected the paLM 2 for Text as generative AI language model. The text-bison@001 model was chosen to generate the results because it is the most costly-effective solution. The background image was generated using [leonardo.ai](https://leonardo.ai) and the coding was assisted by [ChatGPT](https://chat.openai.com). Prompting engineering techniques were also used to improve the responses giving to it instructions, context and output indicators avoiding imprecise expressions.
+This tool was develop to be able to generate and manage detailed travel routes and its interest points.
+
+This solution is based on NodeJS server to make requests to Google Vertex AI API. It was selected the paLM 2 for Text as generative AI language model.The text-bison@001 model was chosen to generate the results because it is the most costly-effective solution.
+
+The background image was generated using [leonardo.ai](https://leonardo.ai) and the coding was assisted by [ChatGPT](https://chat.openai.com).
+
+Prompting engineering techniques were also used to improve the responses giving to it instructions, context and output indicators avoiding imprecise expressions.
+
+All the results are manageable because they are saved in the output_files folder using a timestamp to name it.
 
 ## VERTEX-GENAI-ROUTES - How to install the environment:
 
