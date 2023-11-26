@@ -1,5 +1,5 @@
-# VERTEX-GENAI-ROUTES
+## VERTEX-GENAI-ROUTES
 
 AI HACKATON 2023 - How to install the environment:
 
-## STEP 1:
+### STEP 1:

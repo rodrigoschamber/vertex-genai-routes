@@ -2,7 +2,7 @@ import express from "express";
 import {
   sendRequest,
   writeResponseLocally,
-} from "./utils/google-foundation-models.js";
+} from "./foundation/google-foundation-models.js";
 
 const app = express();
 
