@@ -32,18 +32,31 @@ app.get("/tour/:lang/:city/:duration", async (req, res) => {
               <title>AI HACKATON 2023</title>
               <style>
                 body {
-                    background-image: url('https://i.ibb.co/FgK3qmy/background.jpg');
-                    background-size: cover;
-                    background-position: center;
-                    background-attachment: fixed;
-                    margin: 0;
-                    padding: 0;
-                    height: 100vh;
-                    display: flex;
-                    flex-direction: column;
-                    align-items: center;
-                    justify-content: center;
-                    color: white;
+                  background-image: url('https://i.ibb.co/FgK3qmy/background.jpg');
+                  background-size: cover;
+                  background-position: center;
+                  background-attachment: fixed;
+                  margin: 0;
+                  padding: 0;
+                  height: 100vh;
+                  display: flex;
+                  flex-direction: column;
+                  align-items: center;
+                  justify-content: center;
+                  font-weigth: 700;
+                  color: #393646;
+                }
+                h1 {
+                  background-color: #3498db;
+                  color: #ffffff;
+                }
+                h2 {
+                  background-color: #3498db;
+                  color: #ffffff;
+                }
+                pre {
+                  background-color: #3498db;
+                  color: #ffffff;
                 }
               </style>
             </head>
