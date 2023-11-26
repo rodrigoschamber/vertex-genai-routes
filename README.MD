@@ -2,7 +2,20 @@
 
 This tool was develop to be able to manage and generate detailed travel routes and its interest points. To generate a route you need to navigate to the server route passing some parameters according to the example below:
 
-#### `http://localhost:{port}/{lang}/{city}/{duration}`
+#### `http://localhost:{port}/tour/{lang}/{city}/{duration}`
+
+The parameters {port} and {lang} are set up in the .env file. There are available only two languages: "pt-br" and "eng": Portuguese (BR) and English. If you try to define another language the algorithm will select the "eng" as default.
+
+Follow some URL examples:
+
+Three-days route at Ouro Preto - MG Brazil with results in portuguese (br):
+
+#### `http://localhost:5001/tour/pt-br/ouro+preto-MG/3`
+
+
+Five-days route at Fortaleza - CE Brazil with results in english:
+
+#### `http://localhost:5001/tour/en/fortaleza-Brazil/5`
 
 ## VERTEX-GENAI-ROUTES - How to install the environment:
 
