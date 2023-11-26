@@ -43,7 +43,9 @@ After starting the server use your browser to generate a touristic route. You on
 
 #### `http://localhost:{port}/tour/{lang}/{city}/{duration}`
 
-The parameter {port} is set up in the .env file and the default is 5000. To change tp another one, create a .env file as shown in the .env.example file and fill it in with your choice. There are available only two languages: "pt-br" and "eng": Portuguese (BR) and English. If you try to define another language the algorithm will select the "eng" as default.
+The parameter {port} is set up in the .env file and the default is 5000. To change to another one, create a .env file as shown in the .env.example file and fill it in with your choice. There are available only two languages: "pt-br" and "eng": Portuguese (BR) and English. If you try to define another language the algorithm will select the "eng" as default.
+
+Then select you destiny: {{city}} and the spending time {{duration}} in days to better fit the results.
 
 Follow some URL examples:
 
@@ -55,5 +57,9 @@ Three-days route at Ouro Preto - MG Brazil with results in portuguese (br):
 Five-days route at Fortaleza - CE Brazil with results in english (en):
 
 #### `http://localhost:5001/tour/en/fortaleza-Brazil/5`
+
+Four-day route at Bonito - MS Brazil with results in english (en):
+
+#### `http://localhost:5001/tour/en/bonito-MS-Brazil/four`
 
 Have fun!
