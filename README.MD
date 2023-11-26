@@ -58,8 +58,8 @@ Five-days route at Fortaleza - CE Brazil with results in english (en):
 
 #### `http://localhost:5001/tour/en/fortaleza-Brazil/5`
 
-Four-day route at Bonito - MS Brazil with results in english (en):
+Three-day route at Bonito - MS Brazil with results in english (en):
 
-#### `http://localhost:5001/tour/en/bonito-MS-Brazil/four`
+#### `http://localhost:5001/tour/en/bonito-ms/three`
 
 Have fun!
