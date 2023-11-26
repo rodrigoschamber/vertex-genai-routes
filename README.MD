@@ -35,7 +35,7 @@ Run the command and authenticate using you google account:
 
 #### `npm install`
 
-#### `node index.js`
+#### `npm run watch`
 
 ### STEP 5: Generate your routes:
 
