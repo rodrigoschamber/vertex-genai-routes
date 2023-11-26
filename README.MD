@@ -1,10 +1,10 @@
-# VERTEX-GENAI-ROUTES
+# AI HACKATON 2023
 
 This tool was develop to be able to manage and generate detailed travel routes and its interest points. To generate a route you need to navigate to the server route passing some parameters according to the example below:
 
 #### `http://localhost:{port}/{lang}/{city}/{duration}`
 
-## AI HACKATON 2023 - How to install the environment:
+## VERTEX-GENAI-ROUTES - How to install the environment:
 
 ### STEP 1: Google Cloud Config
 
