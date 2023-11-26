@@ -39,7 +39,7 @@ export async function writeResponseLocally(params, response) {
     JSON.stringify(response),
     function (err) {
       if (err) return console.log(err);
-      console.log(`Writing to ${params.modelId}.json`);
+      console.log(`Writing to file${Date.now()}.json`);
     }
   );
 }
