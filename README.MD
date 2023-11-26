@@ -43,7 +43,7 @@ To generate a route you need to navigate to the server route passing some parame
 
 #### `http://localhost:{port}/tour/{lang}/{city}/{duration}`
 
-The parameters {port} and {lang} are set up in the .env file. There are available only two languages: "pt-br" and "eng": Portuguese (BR) and English. If you try to define another language the algorithm will select the "eng" as default.
+The parameter {port} is set up in the .env file. There are available only two languages: "pt-br" and "eng": Portuguese (BR) and English. If you try to define another language the algorithm will select the "eng" as default.
 
 Follow some URL examples:
 
