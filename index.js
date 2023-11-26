@@ -15,7 +15,7 @@ app.get("/tour/:lang/:city/:duration", async (req, res) => {
     projectId: "ai-2023-405518",
     modelId: "text-bison@001",
     instances: [{ content: promptModelBasic(lang, city, duration) }],
-    parameters: { temperature: 0.2, maxOutputTokens: 256, topP: 0.8, topK: 40 },
+    parameters: { temperature: 0.2, maxOutputTokens: 1024, topP: 0.8, topK: 40 },
   };
   sendRequest(params)
     .then((response) => {
