@@ -1,6 +1,6 @@
 # AI HACKATON 2023
 
-This tool was develop to be able to manage and generate detailed travel routes and its interest points. 
+This tool was develop to be able to manage and generate detailed travel routes and its interest points. This solution is based on NodeJS server to make requests to Google Vertex AI API. It was selected the paLM 2 for Text as generative AI language model. The text-bison@001 model was chosen to generate the results because it is the most costly-effective solution. Prompting engineering techniques were also used to improve the responses.
 
 ## VERTEX-GENAI-ROUTES - How to install the environment:
 
@@ -52,7 +52,7 @@ Three-days route at Ouro Preto - MG Brazil with results in portuguese (br):
 #### `http://localhost:5001/tour/pt-br/ouro+preto-MG/3`
 
 
-Five-days route at Fortaleza - CE Brazil with results in english:
+Five-days route at Fortaleza - CE Brazil with results in english (en):
 
 #### `http://localhost:5001/tour/en/fortaleza-Brazil/5`
 
