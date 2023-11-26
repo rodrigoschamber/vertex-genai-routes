@@ -4,6 +4,10 @@ import { promptModelBasic } from "./prompts/promp-models.js";
 
 const app = express();
 
+const sanitize = (res) => {
+  return res.replace(/(\r\n|\n|\r|\*)/gm, "");
+};
+
 app.get("/tour/:lang/:city/:duration", async (req, res) => {
   const { lang, city, duration } = req.params;
   const params = {
@@ -15,7 +19,7 @@ app.get("/tour/:lang/:city/:duration", async (req, res) => {
   };
   sendRequest(params)
     .then((response) => {
-      res.json(response.predictions[0].content);
+      res.json(sanitize(response.predictions[0].content));
     })
     .catch((error) => {
       console.error(error);
