@@ -1,12 +1,8 @@
 import express from "express";
-import { sendRequest } from "./foundation/google-foundation-models.js";
+import { sendRequest, writeResponseLocally } from "./foundation/google-foundation-models.js";
 import { promptModelBasic } from "./prompts/promp-models.js";
 
 const app = express();
-
-const sanitize = (res) => {
-  return res.replace(/(\r\n|\n|\r|\*)/gm, "");
-};
 
 app.get("/tour/:lang/:city/:duration", async (req, res) => {
   const { lang, city, duration } = req.params;
@@ -24,6 +20,7 @@ app.get("/tour/:lang/:city/:duration", async (req, res) => {
   };
   sendRequest(params)
     .then((response) => {
+      writeResponseLocally(params, response);
       res.send(`
         <!DOCTYPE html>
           <html>
