@@ -28,15 +28,3 @@ export async function sendRequest(options) {
 
   return await response.json();
 }
-
-export async function writeResponseLocally(params, response) {
-  const outputDir = path.join(__dirname, "../routes_output");
-  fs.writeFile(
-    path.join(outputDir, `${params.modelId}.json`),
-    JSON.stringify(response),
-    function (err) {
-      if (err) return console.log(err);
-      console.log(`Writing to ${params.modelId}.json`);
-    }
-  );
-}
