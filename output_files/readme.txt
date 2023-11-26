@@ -1,0 +1,1 @@
+The results are saved in this folder. They are named using timestamps in ms.
