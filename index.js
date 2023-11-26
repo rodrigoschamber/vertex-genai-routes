@@ -15,11 +15,27 @@ app.get("/tour/:lang/:city/:duration", async (req, res) => {
     projectId: "ai-2023-405518",
     modelId: "text-bison@001",
     instances: [{ content: promptModelBasic(lang, city, duration) }],
-    parameters: { temperature: 0.2, maxOutputTokens: 1024, topP: 0.8, topK: 40 },
+    parameters: {
+      temperature: 0.2,
+      maxOutputTokens: 1024,
+      topP: 0.8,
+      topK: 40,
+    },
   };
   sendRequest(params)
     .then((response) => {
-      res.json(sanitize(response.predictions[0].content));
+      res.send(`
+        <!DOCTYPE html>
+          <html>
+            <head>
+              <meta charset="utf-8">
+              <title>Here is your ${duration}-day tour to ${city}</title>
+            </head>
+            <body>
+              <pre>${response.predictions[0].content}</pre>
+            </body>
+          </html>
+      `);
     })
     .catch((error) => {
       console.error(error);
