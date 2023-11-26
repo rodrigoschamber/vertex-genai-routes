@@ -28,7 +28,7 @@ async function sendRequest(options) {
   return await response.json();
 }
 async function writeResponseLocally(params, response) {
-  const outputDir = path.join(__dirname, "../examples_output");
+  const outputDir = path.join(__dirname, "../routes_output");
   fs.writeFile(
     path.join(outputDir, `${params.modelId}.json`),
     JSON.stringify(response),
