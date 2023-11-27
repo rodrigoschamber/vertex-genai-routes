@@ -70,4 +70,8 @@ Three-day route at Bonito - MS Brazil with results in english (en):
 
 #### `http://localhost:5001/tour/en/bonito-ms/three`
 
+Four-day route at Ilhéus-Bahia with results in portuguese (pt-br):
+
+#### `http://localhost:5001/tour/pt-br/ilheus-bahia/4`
+
 Have fun!

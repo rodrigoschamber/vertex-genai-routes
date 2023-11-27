@@ -37,7 +37,7 @@ export async function writeResponseLocally(params, response) {
   fs.writeFile(
     path.join(outputDir, `file${Date.now()}.json`),
     JSON.stringify(response),
-    function (err) {
+    (err) => {
       if (err) return console.log(err);
       console.log(`Writing to file${Date.now()}.json`);
     }
