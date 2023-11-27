@@ -1,0 +1,49 @@
+{
+  "predictions": [
+    {
+      "safetyAttributes": {
+        "categories": ["Derogatory", "Insult", "Profanity", "Sexual", "Toxic"],
+        "scores": [0.1, 0.1, 0.1, 0.3, 0.1],
+        "safetyRatings": [
+          {
+            "probabilityScore": 0.3,
+            "category": "Dangerous Content",
+            "severity": "LOW",
+            "severityScore": 0.3
+          },
+          {
+            "severityScore": 0.1,
+            "category": "Harassment",
+            "probabilityScore": 0.1,
+            "severity": "NEGLIGIBLE"
+          },
+          {
+            "severity": "NEGLIGIBLE",
+            "category": "Hate Speech",
+            "severityScore": 0.1,
+            "probabilityScore": 0.1
+          },
+          {
+            "severity": "NEGLIGIBLE",
+            "probabilityScore": 0.3,
+            "category": "Sexually Explicit",
+            "severityScore": 0.2
+          }
+        ],
+        "blocked": false
+      },
+      "citationMetadata": { "citations": [] },
+      "content": "**Dia 1**\n\n* Chegada em Ilhéus e check-in no hotel.\n* Almoço no restaurante \"Xingó da Ilha\", especializado em frutos do mar.\n* Tarde livre para explorar a cidade.\n* Jantar no restaurante \"Camarão da Ilha\", especializado em camarão.\n\n**Dia 2**\n\n* Passeio de barco pelo Rio Cachoeira, com parada para banho nas cachoeiras.\n* Almoço no restaurante \"Pousada do Rio\", com vista para o rio.\n* Tarde livre para relaxar na praia.\n* Jantar no restaurante \"Beira Mar\", com vista para o mar.\n\n**Dia 3**\n\n* Visita ao Parque Nacional da Chapada Diamantina, com caminhadas pelas trilhas e visita às cachoeiras.\n* Almoço no restaurante \"Recanto do Sabor\", localizado dentro do parque.\n* Tarde livre para explorar o parque.\n* Jantar no restaurante \"Casa do Sabor\", especializado em comida baiana.\n\n**Dia 4**\n\n* Volta para casa.\n\n**Hoteis e pousadas**\n\n* Hotel Porto Seguro\n* Pousada Villa Verde\n* Pousada Canto do Rio\n\n**Museus**\n\n* Museu da Cidade\n* Museu do Cacau\n* Museu da Arte Sacra\n\n**Restaurantes**\n\n* Xingó da Ilha\n* Camarão da Ilha\n* Pousada do Rio\n* Beira Mar\n* Recanto do Sabor\n* Casa do Sabor\n\n**Parques naturais**\n\n* Parque Nacional da Chapada Diamantina\n* Cachoeira do Buracão\n* Cachoeira do Poço Encantado\n* Mirante do Morro do Cristo\n\n**Dicas**\n\n* Se você for visitar o Parque Nacional da Chapada Diamantina, é importante levar roupas e calçados confortáveis, pois as trilhas são longas e íngremes.\n* Também é importante levar água e alimentos, pois não há restaurantes dentro do parque.\n* Se você quiser fazer rapel na Cachoeira do Buracão, é necessário contratar um guia.\n* O Mirante do Morro do Cristo é um ótimo lugar para ver o pôr do sol."
+    }
+  ],
+  "metadata": {
+    "tokenMetadata": {
+      "outputTokenCount": {
+        "totalTokens": 481,
+        "totalBillableCharacters": 1341
+      },
+      "inputTokenCount": { "totalTokens": 101, "totalBillableCharacters": 389 }
+    }
+  }
+}
+
