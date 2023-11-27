@@ -61,7 +61,6 @@ Three-days route at Ouro Preto - MG Brazil with results in portuguese (br):
 
 #### `http://localhost:5001/tour/pt-br/ouro+preto-MG/3`
 
-
 Five-days route at Fortaleza - CE Brazil with results in english (en):
 
 #### `http://localhost:5001/tour/en/fortaleza-Brazil/5`
